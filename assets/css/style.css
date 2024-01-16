@@ -4,6 +4,7 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 :root{
     --color01:white;
@@ -12,13 +13,27 @@
 }
 h1{
     font-size: 2.5rem;
-    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 5px;
     color: var(--color01);
 }
-h2{
+.h2Tipo1{
     font-size: 2rem;
     letter-spacing: 2px;
+    color: var(--color01);
+    letter-spacing: 2px;
+}
+.h2Tipo2{
+    font-size: 1rem;
+    font-weight: 100;
+    color: var(--color03);
+}
+.h2Tipo3{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: var(--color03);
+}
+h3{
+    font-size: 2.3rem;
 }
 
 a{
@@ -83,7 +98,6 @@ header img{
     padding-left: 2rem;
 
     color: var(--color01);
-    font-family: Arial, Helvetica, sans-serif;
 
     display: flex;
     flex-direction: column;
@@ -145,7 +159,6 @@ article{
 }
 .fortalezas h4{
     font-size: 1.6rem;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .fortalezas img{
     width: 100px;
@@ -155,29 +168,48 @@ article{
 }
 
 /* ARTICULO ABOUT */
+
 #articulo_about{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    column-gap: 2rem;
 }
-#articulo_about img{
+#articulo_about >img{
     width: 40%;
 }
 #caja_about{
-    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     row-gap: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+}
+#caja_about h3{
+    width: 100%;
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--color02);
 }
 #caja_about h2{
-    font-size: 1rem;
-    font-weight: 100;
+    padding-left: 1.5rem;
 }
+#caja_about p{
+    padding: 0 1.5rem;
+}
+#caja_about a{
+    padding-left: 1.5rem;
+    color: var(--color02);
+}
+
+/* ESTILOS SECCIÓN PROYECTOS */
+#articulo_proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 2rem;
+}
+
 
 
 
