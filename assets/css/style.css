@@ -10,6 +10,7 @@
     --color01:white;
     --color02:rgb(255, 102, 127);
     --color03:rgb(57, 57, 57);
+    --color03bis:rgb(128, 128, 128);
     --color04:rgb(3,190,206);
 }
 h1{
@@ -280,6 +281,14 @@ article{
     flex-wrap: wrap;
     gap: 2rem;
 }
+.contenedorElementosFila2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 1rem;
+}
 .cliente{
     width: 28%;
     min-width: 250px;
@@ -344,6 +353,23 @@ article{
     filter: sepia(0);
 }
 
+/* sección casos de éxito */
+.contenedorCasoExito{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 1rem;
+}
+
+.contenedorCasoExito img{
+    width: 100%;
+}
+.textoGris{
+    color: var(--color03bis);
+    text-align: right;
+}
 
 
 
